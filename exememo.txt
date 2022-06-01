@@ -1,0 +1,5 @@
+https://github.com/crystal-lang/crystal/wiki/Porting-to-Windows 参照のこと
+crystal build --cross-compile --target x86_64-pc-windows-msvc --release --no-debug [name].cr
+=> 出力をコピーしてパスを変えてx64 Native Tools Comand Prompt for VS 2019 で C:\crystal で実行
+だったのは昔の話
+今: powershell or cmd で普通にcrystal build(unsupportedのcrystal.exeにpathが通してあるのでこれが起きる)
